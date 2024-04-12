@@ -1,0 +1,591 @@
+{
+	"info": {
+		"_postman_id": "28cd5bc8-a039-4a59-8ab1-2608cc5ad2fe",
+		"name": "Math python api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "25110839"
+	},
+	"item": [
+		{
+			"name": "Math",
+			"item": [
+				{
+					"name": "Sum request",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": [
+						{
+							"name": "Succes",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": "{{URL}}/sum/1/2"
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "html",
+							"header": [
+								{
+									"key": "Server",
+									"value": "Werkzeug/3.0.2 Python/3.8.10"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 12 Apr 2024 05:51:52 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "text/html; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "3"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								}
+							],
+							"cookie": [],
+							"body": "3.0"
+						}
+					]
+				},
+				{
+					"name": "Sub request",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": [
+						{
+							"name": "Success",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": "{{URL}}/sub/1/2"
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "html",
+							"header": [
+								{
+									"key": "Server",
+									"value": "Werkzeug/3.0.2 Python/3.8.10"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 12 Apr 2024 05:52:28 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "text/html; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "4"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								}
+							],
+							"cookie": [],
+							"body": "-1.0"
+						}
+					]
+				},
+				{
+					"name": "Div request",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": [
+						{
+							"name": "Success",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": "{{URL}}/div/1/2"
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "html",
+							"header": [
+								{
+									"key": "Server",
+									"value": "Werkzeug/3.0.2 Python/3.8.10"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 12 Apr 2024 05:52:41 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "text/html; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "3"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								}
+							],
+							"cookie": [],
+							"body": "0.5"
+						},
+						{
+							"name": "Divide By zero",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": "{{URL}}/div/1/0"
+							},
+							"status": "BAD REQUEST",
+							"code": 400,
+							"_postman_previewlanguage": "html",
+							"header": [
+								{
+									"key": "Server",
+									"value": "Werkzeug/3.0.2 Python/3.8.10"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 12 Apr 2024 05:53:56 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "text/html; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "105"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								}
+							],
+							"cookie": [],
+							"body": "<!doctype html><html lang=en><title>400 Bad Request</title><h1>Bad Request</h1><p>divide by zero</p>"
+						}
+					]
+				},
+				{
+					"name": "Mul request",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": [
+						{
+							"name": "Success",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": "{{URL}}/mul/1/2"
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "html",
+							"header": [
+								{
+									"key": "Server",
+									"value": "Werkzeug/3.0.2 Python/3.8.10"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 12 Apr 2024 05:52:49 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "text/html; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "3"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								}
+							],
+							"cookie": [],
+							"body": "2.0"
+						}
+					]
+				},
+				{
+					"name": "Dev integer request",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": [
+						{
+							"name": "Success",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": "{{URL}}/div_int/1/2"
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "html",
+							"header": [
+								{
+									"key": "Server",
+									"value": "Werkzeug/3.0.2 Python/3.8.10"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 12 Apr 2024 05:52:54 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "text/html; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "3"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								}
+							],
+							"cookie": [],
+							"body": "0.0"
+						}
+					]
+				},
+				{
+					"name": "Mod request",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": [
+						{
+							"name": "Success",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": "{{URL}}/mod/1/2"
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "html",
+							"header": [
+								{
+									"key": "Server",
+									"value": "Werkzeug/3.0.2 Python/3.8.10"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 12 Apr 2024 05:53:10 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "text/html; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "3"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								}
+							],
+							"cookie": [],
+							"body": "1.0"
+						}
+					]
+				},
+				{
+					"name": "Pow request",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": [
+						{
+							"name": "Success",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": "{{URL}}/sqr/1/2"
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "html",
+							"header": [
+								{
+									"key": "Server",
+									"value": "Werkzeug/3.0.2 Python/3.8.10"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 12 Apr 2024 05:53:15 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "text/html; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "3"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								}
+							],
+							"cookie": [],
+							"body": "1.0"
+						}
+					]
+				},
+				{
+					"name": "Sqrt request",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": [
+						{
+							"name": "Success",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": "{{URL}}/sqrt/2"
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "html",
+							"header": [
+								{
+									"key": "Server",
+									"value": "Werkzeug/3.0.2 Python/3.8.10"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 12 Apr 2024 05:53:19 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "text/html; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "18"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								}
+							],
+							"cookie": [],
+							"body": "1.4142135623730951"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Trigonometric",
+			"item": [
+				{
+					"name": "Sin request",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": [
+						{
+							"name": "Success",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{URL}}/sin/2?mode=degreees",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"sin",
+										"2"
+									],
+									"query": [
+										{
+											"key": "mode",
+											"value": "degreees"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "html",
+							"header": [
+								{
+									"key": "Server",
+									"value": "Werkzeug/3.0.2 Python/3.8.10"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 12 Apr 2024 05:53:24 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "text/html; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "18"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								}
+							],
+							"cookie": [],
+							"body": "0.9092974268256817"
+						}
+					]
+				},
+				{
+					"name": "Cos request",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": [
+						{
+							"name": "Success",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{URL}}/cos/2?mode=degrees",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"cos",
+										"2"
+									],
+									"query": [
+										{
+											"key": "mode",
+											"value": "degrees"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "html",
+							"header": [
+								{
+									"key": "Server",
+									"value": "Werkzeug/3.0.2 Python/3.8.10"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 12 Apr 2024 05:53:29 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "text/html; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "18"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								}
+							],
+							"cookie": [],
+							"body": "0.9993908270190958"
+						}
+					]
+				},
+				{
+					"name": "Tan request",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": [
+						{
+							"name": "Success",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{URL}}/tan/2",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"tan",
+										"2"
+									],
+									"query": [
+										{
+											"key": "mode",
+											"value": "degrees",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "html",
+							"header": [
+								{
+									"key": "Server",
+									"value": "Werkzeug/3.0.2 Python/3.8.10"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 12 Apr 2024 05:53:34 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "text/html; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "18"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								}
+							],
+							"cookie": [],
+							"body": "-2.185039863261519"
+						}
+					]
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"key": "URL",
+			"value": "http://85.159.230.57:1001/"
+		}
+	]
+}
